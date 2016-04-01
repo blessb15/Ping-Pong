@@ -1,36 +1,33 @@
 //business
+var incNum = 0;
 var runIt = function(input){
 
-var countUp = 1;
-
-for(i=0; i <= input; i++){
-  if (input > countUp){
-  var addOne = countUp + 1;
-  }
-}
-
-
-var result = $(".display").append("<li>"+ countUp + "</li>");
-
-
-
-console.log(result);
-
+    while (input > incNum){
+      incNum += 1;
+      var show = $(".display").append("<li>" + incNum + "</li>");
+      if (incNum % 5 === 0){
+      }
+    }
 }
 
 
 
+// $(".display").append("<li>" + incNum + "</li>");
 
 
 
 
 //user
+
 $(document).ready(function(){
+
   $("#Ping-Pong").submit(function(event){
-  event.preventDefault();
+    event.preventDefault();
 
-  var input = $("#number").val();
+    var show
 
-  runIt(input);
+    var userInput = $("input#number").val();
+
+    runIt(userInput);
   });
 });
