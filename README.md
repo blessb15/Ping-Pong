@@ -2,7 +2,7 @@
 
  _Blake Bless_
 
-#### _Takes user input and runs through a list of exceptions, 4/2/16_
+#### _Takes user input and runs through a list of exceptions, 4/1/16_
 
 #### By _**Blake Bless**_
 
