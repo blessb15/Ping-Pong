@@ -12,15 +12,12 @@ var incNum = 0;
             } else
               $(".list").append("<li>" + incNum + "</li>");
     }
-
   }
 //user logic
 $(document).ready(function(){
   $("#Ping-Pong").submit(function(event){
     event.preventDefault();
-
-    var userInput = $("input#number").val().split(" ");
-
+    var userInput = $("input#number").val();
     runIt(userInput);
   });
 });
