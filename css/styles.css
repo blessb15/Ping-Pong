@@ -1,3 +1,15 @@
-button {
-  padding-bottom: 20px;
+h1 {
+  text-align: center;
+}
+
+p{
+  padding-bottom: 10px;
+}
+
+.letsplay{
+  text-align: center;
+}
+
+body{
+  background-color: #daf6e5;
 }
